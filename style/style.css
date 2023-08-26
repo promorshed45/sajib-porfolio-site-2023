@@ -1,0 +1,198 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+}
+.navber{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.nav-tittle{
+    font-size: 50px;
+    font-weight: 900;
+}
+.namver-manu{
+    display: flex;
+    align-items: center;
+}
+.namver-manu li{
+    margin-left: 50px;
+    font-size: 17px;
+    list-style: none;
+}
+.btn-primary{
+    background-color: chocolate;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 7px;
+}
+.gap{
+    margin-right: 20px;
+}
+.header{
+    padding: 50px 50px 0px 100px;
+    align-items: center;
+    background-color: beige;
+    background-image: url(/image/header_bg.png),url(/image/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+
+}
+.marginbt{
+    padding-top: 15px;
+}
+.header-section{
+    display:flex;
+    align-items: center;
+    height: 650px;
+}
+.header-content{
+    align-items: center;
+    position: relative;
+}
+.header-tittle{
+    font-size: 50px;
+    color: gray;
+}
+.main-tittle{
+    font-size: 80px;
+    padding: 20px 0px;
+color: rgb(218, 24, 24);
+}
+.header-info{
+    color: rgb(90, 90, 90);
+    padding-bottom: 15px;
+}
+.header-image{
+    height: 650px;
+}
+.header-image img{
+    bottom: 0;
+    right: 0;
+    height: 80%;
+}
+/* about me section start */
+.about-me{
+    background-color: beige;
+    padding: 100px;
+    text-align: center;
+  }
+  .about-me-info{
+    color: gray;
+    font-size: 17px;
+    padding: 30px 50px;
+    line-height: 25px;
+  }
+  .items-container{
+    display: flex;
+      justify-content: space-between;
+  
+  }
+  .item{
+    margin: 50px 50px;
+  }
+  .item h4{
+    margin-bottom: 20px;
+  }
+  
+  
+  /* what i do section start */
+  .cart-container{
+    display: flex;
+  }
+  .cart{
+    margin-right: 30px;
+    text-align: left;
+    background-color: white;
+    padding: 20px 30px;
+    box-shadow: 5px 5px 10px 5px rgb(240, 240, 240);
+    border-radius: 5px;
+  }
+  .cart h4{
+    font-size: 18px;
+    margin: 20px 5px;
+    
+  }
+  .cart p{
+    color: gray;
+    line-height: 22px;
+  }
+  .what-i-do{
+    text-align: center;
+    padding: 100px 20px;
+    color: rgb(24, 229, 236);
+  }
+  .haeding{ 
+    text-align: center;
+  }
+  /*A summary of My Resume start  */
+  resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: #757575;
+}
+
+.resume-container hr {
+    margin: 30px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer style */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links{
+    margin-right: 25px;
+    gap: 50px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
